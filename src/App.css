@@ -1,0 +1,27 @@
+.App {
+  text-align: center;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 colunas */
+  gap: 40px; /* Espaço entre as imagens */
+  padding: 20px;
+}
+
+.image-card {
+  position: relative;
+  width: 100%; /* Ajusta a largura do card para preencher a coluna */
+  height: 250px; /* Altura fixa para o card */
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites do card */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-card img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do card */
+  max-height: 100%; /* Garante que a imagem não ultrapasse a altura do card */
+  object-fit: contain; /* Mantém a proporção da imagem sem cortar */
+  cursor: pointer;
+}

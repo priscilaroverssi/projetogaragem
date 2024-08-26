@@ -1,0 +1,50 @@
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Garante que o modal esteja acima dos outros elementos */
+  }
+  
+  .modal-content {
+    background: rgb(237, 237, 237); /* Cor de fundo da caixa de descrição */
+    color: #0b0b0b; /* Cor do texto dentro da caixa de descrição */
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    max-width: 500px;
+    text-align: center;
+    position: relative;
+    z-index: 1001; /* Garante que o conteúdo do modal esteja acima do fundo do modal */
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #020202; /* Cor do botão de fechar */
+  }
+  
+  .description {
+    margin-bottom: 20px;
+    text-align: left; /* Alinha o texto à esquerda */
+    white-space: pre-line; /* Preserva quebras de linha e espaços múltiplos */
+    color: #100f0f; /* Cor do texto na caixa de descrição */
+  }
+  
+  .ok-button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #007bff; /* Cor de fundo do botão OK */
+    color: white; /* Cor do texto do botão OK */
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
