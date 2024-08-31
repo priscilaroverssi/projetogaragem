@@ -1,27 +1,20 @@
-.App {
-  text-align: center;
+@media (max-width: 768px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr); /* Ajusta para 2 colunas em telas menores */
+    gap: 20px; /* Reduz o espaço entre as imagens */
+  }
+
+  .image-card {
+    height: 200px; /* Ajusta a altura do card para telas menores */
+  }
 }
 
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr); /* Define 4 colunas */
-  gap: 40px; /* Espaço entre as imagens */
-  padding: 20px;
-}
+@media (max-width: 480px) {
+  .grid-container {
+    grid-template-columns: 1fr; /* Ajusta para 1 coluna em telas muito pequenas */
+  }
 
-.image-card {
-  position: relative;
-  width: 100%; /* Ajusta a largura do card para preencher a coluna */
-  height: 250px; /* Altura fixa para o card */
-  overflow: hidden; /* Garante que a imagem não ultrapasse os limites do card */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.image-card img {
-  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do card */
-  max-height: 100%; /* Garante que a imagem não ultrapasse a altura do card */
-  object-fit: contain; /* Mantém a proporção da imagem sem cortar */
-  cursor: pointer;
+  .image-card {
+    height: 150px; /* Ajusta ainda mais a altura do card */
+  }
 }
