@@ -13,16 +13,36 @@ const ImageCard: React.FC<ImageCardProps> = ({ imageUrl, description }) => {
   };
 
   return (
-    <div className="image-card">
+    <div style={{ position: 'relative', width: '200px', height: '200px', margin: '10px' }}>
       <img
         src={imageUrl}
-        alt={description} // Usar a descrição como alt
-        className={`image ${flipped ? 'hidden' : ''}`}
+        alt="thumbnail"
+        style={{
+          width: '100%',
+          height: '100%',
+          objectFit: 'cover',
+          cursor: 'pointer',
+          display: flipped ? 'none' : 'block',
+        }}
         onClick={handleClick}
       />
       {flipped && (
         <div
-          className="description"
+          style={{
+            position: 'absolute',
+            top: '0',
+            left: '0',
+            width: '100%',
+            height: '100%',
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            color: 'white',
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            textAlign: 'center',
+            cursor: 'pointer',
+            padding: '10px', // Adiciona um pouco de padding para o texto
+          }}
           onClick={handleClick}
         >
           {description}
