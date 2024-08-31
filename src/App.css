@@ -1,63 +1,27 @@
-/* Estilos gerais */
+.App {
+  text-align: center;
+}
+
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 10px;
+  grid-template-columns: repeat(4, 1fr); /* Define 4 colunas */
+  gap: 40px; /* Espaço entre as imagens */
+  padding: 20px;
 }
 
 .image-card {
   position: relative;
-  width: 100%;
-  height: 200px;
-  margin: 10px;
-}
-
-.image {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  cursor: pointer;
-}
-
-.hidden {
-  display: none;
-}
-
-.description {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  width: 100%; /* Ajusta a largura do card para preencher a coluna */
+  height: 250px; /* Altura fixa para o card */
+  overflow: hidden; /* Garante que a imagem não ultrapasse os limites do card */
   display: flex;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
+}
+
+.image-card img {
+  max-width: 100%; /* Garante que a imagem não ultrapasse a largura do card */
+  max-height: 100%; /* Garante que a imagem não ultrapasse a altura do card */
+  object-fit: contain; /* Mantém a proporção da imagem sem cortar */
   cursor: pointer;
-  padding: 10px;
-  box-sizing: border-box;
-}
-
-/* Estilos para telas menores */
-@media (max-width: 768px) {
-  .grid-container {
-    grid-template-columns: repeat(2, 1fr); /* Ajusta para 2 colunas em telas menores */
-    gap: 20px; /* Reduz o espaço entre as imagens */
-  }
-
-  .image-card {
-    height: 200px; /* Ajusta a altura do card para telas menores */
-  }
-}
-
-@media (max-width: 480px) {
-  .grid-container {
-    grid-template-columns: 1fr; /* Ajusta para 1 coluna em telas muito pequenas */
-  }
-
-  .image-card {
-    height: 150px; /* Ajusta ainda mais a altura do card */
-  }
 }
