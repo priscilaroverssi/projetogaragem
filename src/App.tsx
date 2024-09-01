@@ -6,7 +6,7 @@ const App: React.FC = () => {
   const images = [
     {
       id: '1',
-      src: `${process.env.PUBLIC_URL}/Camaro.png`, // Caminho para a imagem na pasta public
+      src: `${process.env.PUBLIC_URL}/projetogaragem/Camaro.png`, // Caminho para a imagem na pasta public
       description: `<h3>CAMARO AMARELO</h3>
       MOTOR V6 3.6L
       POTÊNCIA 335 CV
@@ -15,102 +15,102 @@ const App: React.FC = () => {
     },
     {
       id: '2',
-      src: `${process.env.PUBLIC_URL}/Camaropreto.png`,
+      src: '${process.env.PUBLIC_URL}/projetogaragem/Camaropreto.png',
       description: `<h3>CAMARO PRETO</h3>
       MOTOR V8 6.2L Supercharged
-      POTÊNCIA 650 CV
-      TORQUE 89.9 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 3,5s`,
+POTÊNCIA 650 CV
+TORQUE 89.9 Kgfm
+ACELERAÇÃO DE 0 a 100 em 3,5s`,
     },
     {
       id: '3',
-      src: `${process.env.PUBLIC_URL}/Camarovermelho.png`,
+      src: '/Camarovermelho.png',
       description: `<h3>CAMARO VERMELHO</h3>
       MOTOR I4 2.0L Turbo
-      POTÊNCIA 275 CV
-      TORQUE 40.8 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 5,4s`,
+POTÊNCIA 275 CV
+TORQUE 40.8 Kgfm
+ACELERAÇÃO DE 0 a 100 em 5,4s`,
     },
     {
       id: '4',
-      src: `${process.env.PUBLIC_URL}/Ferrariazul.png`,
+      src: '/Ferrariazul.png',
       description: `<h3>FERRARI AZUL</h3>
       MOTOR V12 6.5L
-      POTÊNCIA 800 CV
-      TORQUE 73.2 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 2,8s`,
+POTÊNCIA 800 CV
+TORQUE 73.2 Kgfm
+ACELERAÇÃO DE 0 a 100 em 2,8s`,
     },
     {
       id: '5',
-      src: `${process.env.PUBLIC_URL}/Ferrarivermelha.png`,
+      src: '/Ferrarivermelha.png',
       description: `<h3>FERRARI VERMELHA</h3>
       MOTOR V8 3.9L Biturbo
-      POTÊNCIA 720 CV
-      TORQUE 78.5 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 2,9s`,
+POTÊNCIA 720 CV
+TORQUE 78.5 Kgfm
+ACELERAÇÃO DE 0 a 100 em 2,9s`,
     },
     {
       id: '6',
-      src: `${process.env.PUBLIC_URL}/Lamborghiniazul.png`,
+      src: '/Lamborghiniazul.png',
       description: `<h3>LAMBORGHINI AZUL</h3>
       MOTOR V10 5.2L
-      POTÊNCIA 640 CV
-      TORQUE 60.0 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 3,1s`,
+POTÊNCIA 640 CV
+TORQUE 60.0 Kgfm
+ACELERAÇÃO DE 0 a 100 em 3,1s`,
     },
     {
       id: '7',
-      src: `${process.env.PUBLIC_URL}/Lamborghinipreta.png`,
+      src: '/Lamborghinipreta.png',
       description: `<h3>LAMBORGHINI PRETA</h3>
       MOTOR V12 6.5L
-      POTÊNCIA 770 CV
-      TORQUE 73.4 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 2,8s`,
+POTÊNCIA 770 CV
+TORQUE 73.4 Kgfm
+ACELERAÇÃO DE 0 a 100 em 2,8s`,
     },
     {
       id: '8',
-      src: `${process.env.PUBLIC_URL}/Porschelaranja.png`,
+      src: '/Porschelaranja.png',
       description: `<h3>PORSCHE LARANJA</h3>
       MOTOR Flat-6 3.0L Turbo
-      POTÊNCIA 450 CV
-      TORQUE 54.0 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 3,5s`,
+POTÊNCIA 450 CV
+TORQUE 54.0 Kgfm
+ACELERAÇÃO DE 0 a 100 em 3,5s`,
     },
     {
       id: '9',
-      src: `${process.env.PUBLIC_URL}/Porscheprata.png`,
+      src: '/Porscheprata.png',
       description: `<h3>PORSCHE PRATA</h3>
       MOTOR Flat-6 4.0L
-      POTÊNCIA 510 CV
-      TORQUE 47.9 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 3,4s`,
+POTÊNCIA 510 CV
+TORQUE 47.9 Kgfm
+ACELERAÇÃO DE 0 a 100 em 3,4s`,
     }, 
     {
       id: '10',
-      src: `${process.env.PUBLIC_URL}/RangeRoverlaranja.png`,
+      src: '/RangeRoverlaranja.png',
       description: `<h3>RANGE ROVER LARANJA</h3>
       MOTOR V8 5.0L Supercharged
-      POTÊNCIA 525 CV
-      TORQUE 63.7 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 5,4s`,
+POTÊNCIA 525 CV
+TORQUE 63.7 Kgfm
+ACELERAÇÃO DE 0 a 100 em 5,4s`,
     }, 
     {
       id: '11',
-      src: `${process.env.PUBLIC_URL}/RangeRoverbranca.png`,
+      src: '/RangeRoverbranca.png',
       description: `<h3>RANGE ROVER BRANCA</h3>
       MOTOR I6 3.0L Turbo MHEV
-      POTÊNCIA 400 CV
-      TORQUE 56.1 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 5,9s`,
+POTÊNCIA 400 CV
+TORQUE 56.1 Kgfm
+ACELERAÇÃO DE 0 a 100 em 5,9s`,
     }, 
     {
       id: '12',
-      src: `${process.env.PUBLIC_URL}/Paganihuayra.png`,
+      src: '/Paganihuayra.png',
       description: `<h3>PAGANI HUYARA VERMELHA</h3>
       MOTOR V12 6.0L Biturbo
-      POTÊNCIA 730 CV
-      TORQUE 102.0 Kgfm
-      ACELERAÇÃO DE 0 a 100 em 3,2s`,
+POTÊNCIA 730 CV
+TORQUE 102.0 Kgfm
+ACELERAÇÃO DE 0 a 100 em 3,2s`,
     }, 
   ];
 
@@ -122,7 +122,8 @@ const App: React.FC = () => {
         {images.map((image) => (
           <ImageCard
             key={image.id}
-            imageUrl={image.src}
+            id={image.id}
+            src={image.src}
             description={image.description}
           />
         ))}
@@ -132,4 +133,3 @@ const App: React.FC = () => {
 };
 
 export default App;
-
