@@ -1,3 +1,6 @@
+
+![image](https://github.com/user-attachments/assets/9eb02bdc-d47d-4dff-a694-f6d069e5ef99)
+
 #🚗✨ Explorando o Futuro da Simulação Automotiva com React e TypeScript! ✨🚗
 
 Estou animada para compartilhar meu mais recente projeto desenvolvido em React e TypeScript no Visual Studio Code! 🌟
