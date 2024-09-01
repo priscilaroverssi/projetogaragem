@@ -15,7 +15,7 @@ const App: React.FC = () => {
     },
     {
       id: '2',
-      src: '/Camaropreto.png',
+      src: '/projetogaragem/Camaropreto.png',
       description: `<h3>CAMARO PRETO</h3>
       MOTOR V8 6.2L Supercharged
 POTÊNCIA 650 CV
@@ -24,7 +24,7 @@ ACELERAÇÃO DE 0 a 100 em 3,5s`,
     },
     {
       id: '3',
-      src: '/Camarovermelho.png',
+      src: '/projetogaragem/Camarovermelho.png',
       description: `<h3>CAMARO VERMELHO</h3>
       MOTOR I4 2.0L Turbo
 POTÊNCIA 275 CV
@@ -33,7 +33,7 @@ ACELERAÇÃO DE 0 a 100 em 5,4s`,
     },
     {
       id: '4',
-      src: '/Ferrariazul.png',
+      src: '/projetogaragem/Ferrariazul.png',
       description: `<h3>FERRARI AZUL</h3>
       MOTOR V12 6.5L
 POTÊNCIA 800 CV
@@ -42,7 +42,7 @@ ACELERAÇÃO DE 0 a 100 em 2,8s`,
     },
     {
       id: '5',
-      src: '/Ferrarivermelha.png',
+      src: '/projetogaragem/Ferrarivermelha.png',
       description: `<h3>FERRARI VERMELHA</h3>
       MOTOR V8 3.9L Biturbo
 POTÊNCIA 720 CV
@@ -51,7 +51,7 @@ ACELERAÇÃO DE 0 a 100 em 2,9s`,
     },
     {
       id: '6',
-      src: '/Lamborghiniazul.png',
+      src: '/projetogaragem/Lamborghiniazul.png',
       description: `<h3>LAMBORGHINI AZUL</h3>
       MOTOR V10 5.2L
 POTÊNCIA 640 CV
@@ -60,7 +60,7 @@ ACELERAÇÃO DE 0 a 100 em 3,1s`,
     },
     {
       id: '7',
-      src: '/Lamborghinipreta.png',
+      src: '/projetogaragem/Lamborghinipreta.png',
       description: `<h3>LAMBORGHINI PRETA</h3>
       MOTOR V12 6.5L
 POTÊNCIA 770 CV
@@ -69,7 +69,7 @@ ACELERAÇÃO DE 0 a 100 em 2,8s`,
     },
     {
       id: '8',
-      src: '/Porschelaranja.png',
+      src: '/projetogaragem/Porschelaranja.png',
       description: `<h3>PORSCHE LARANJA</h3>
       MOTOR Flat-6 3.0L Turbo
 POTÊNCIA 450 CV
@@ -78,7 +78,7 @@ ACELERAÇÃO DE 0 a 100 em 3,5s`,
     },
     {
       id: '9',
-      src: '/Porscheprata.png',
+      src: '/projetogaragem/Porscheprata.png',
       description: `<h3>PORSCHE PRATA</h3>
       MOTOR Flat-6 4.0L
 POTÊNCIA 510 CV
@@ -87,7 +87,7 @@ ACELERAÇÃO DE 0 a 100 em 3,4s`,
     }, 
     {
       id: '10',
-      src: '/RangeRoverlaranja.png',
+      src: '/projetogaragem/RangeRoverlaranja.png',
       description: `<h3>RANGE ROVER LARANJA</h3>
       MOTOR V8 5.0L Supercharged
 POTÊNCIA 525 CV
@@ -96,7 +96,7 @@ ACELERAÇÃO DE 0 a 100 em 5,4s`,
     }, 
     {
       id: '11',
-      src: '/RangeRoverbranca.png',
+      src: '/projetogaragem/RangeRoverbranca.png',
       description: `<h3>RANGE ROVER BRANCA</h3>
       MOTOR I6 3.0L Turbo MHEV
 POTÊNCIA 400 CV
@@ -105,7 +105,7 @@ ACELERAÇÃO DE 0 a 100 em 5,9s`,
     }, 
     {
       id: '12',
-      src: '/Paganihuayra.png',
+      src: '/projetogaragem/Paganihuayra.png',
       description: `<h3>PAGANI HUYARA VERMELHA</h3>
       MOTOR V12 6.0L Biturbo
 POTÊNCIA 730 CV
