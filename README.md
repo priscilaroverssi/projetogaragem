@@ -8,4 +8,4 @@ Detalhes exibidos ao clicar em cada carro, incluindo motorização, combustível
 Interface intuitiva e responsiva, projetada para facilitar a navegação e a escolha do veículo perfeito.
 Este projeto não só destaca minhas habilidades em React e TypeScript, mas também demonstra minha capacidade de criar interfaces envolventes e funcionais. 🚀
 
-Visualizar o projeto no GitHub Pages:
+<a href="https://github.com/priscilaroverssi/rexletras"> Clique aqui para visualizar o projeto no GitHub Pages 
