@@ -6,7 +6,7 @@ const App: React.FC = () => {
   const images = [
     {
       id: '1',
-      src: '/Camaro.png', // Caminho para a imagem na pasta public
+      src: `${process.env.PUBLIC_URL}/Camaro.png`, // Caminho para a imagem na pasta public
       description: `<h3>CAMARO AMARELO</h3>
       MOTOR V6 3.6L
       POTÊNCIA 335 CV
@@ -15,7 +15,7 @@ const App: React.FC = () => {
     },
     {
       id: '2',
-      src: '/Camaropreto.png',
+      src: '${process.env.PUBLIC_URL}/Camaropreto.png',
       description: `<h3>CAMARO PRETO</h3>
       MOTOR V8 6.2L Supercharged
 POTÊNCIA 650 CV
