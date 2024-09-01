@@ -1,5 +1,5 @@
 :root {
-  font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -10,9 +10,7 @@
 body {
   margin: 0;
   display: flex;
-  flex-direction: column; /* Garantir que o conteúdo seja empilhado verticalmente */
-  align-items: center; /* Centraliza o conteúdo horizontalmente */
-  justify-content: center; /* Centraliza o conteúdo verticalmente */
+  place-items: center;
   min-width: 320px;
   min-height: 100vh;
   background-color: #242424; /* Cor do fundo da página */
@@ -23,17 +21,14 @@ h1 {
   font-size: 3.2em;
   line-height: 1.1;
   color: #ffffff; /* Cor do título */
-  text-align: center; /* Centraliza o título */
-  margin-bottom: 20px; /* Adiciona espaço abaixo do título */
 }
 
 h2 {
   font-size: 1.5em;
   color: #ffffff; /* Cor do subtítulo */
-  margin: 40px 0; /* Adiciona margem acima e abaixo do subtítulo */
-  text-align: center; /* Centraliza o subtítulo */
-}
+  margin: 40px; /* Remove a margem padrão do título */
 
+}
 h3 {
   margin: 0; /* Remove a margem padrão do título */
   font-size: 1.5em;
@@ -60,38 +55,4 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
-
-/* Classe para a grade de imagens */
-.grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsivo para ajustar o número de colunas conforme o tamanho da tela */
-  gap: 20px; /* Espaço entre as imagens */
-  padding: 20px;
-  width: 100%; /* Garante que a grade ocupe toda a largura disponível */
-  max-width: 1200px; /* Limita a largura máxima da grade */
-}
-
-.image-card {
-  position: relative;
-  width: 100%;
-  height: 250px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-}
-
-.image-card img {
-  width: 100%; /* Ajusta a imagem para ocupar a largura total do card */
-  height: 100%; /* Ajusta a imagem para ocupar a altura total do card */
-  object-fit: cover; /* Garante que a imagem cubra totalmente o card sem distorção */
-  cursor: pointer;
-  transition: transform 0.3s ease-in-out;
-}
-
-.image-card img:hover {
-  transform: scale(1.05); /* Aumenta ligeiramente a imagem ao passar o mouse */
 }

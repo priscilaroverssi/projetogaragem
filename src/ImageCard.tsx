@@ -15,7 +15,7 @@ const ImageCard: React.FC<ImageCardProps> = ({ imageUrl, description }) => {
   return (
     <div style={{ position: 'relative', width: '200px', height: '200px', margin: '10px' }}>
       <img
-        src={process.env.PUBLIC_URL + imageUrl}
+        src={imageUrl}
         alt="thumbnail"
         style={{
           width: '100%',
@@ -41,7 +41,7 @@ const ImageCard: React.FC<ImageCardProps> = ({ imageUrl, description }) => {
             alignItems: 'center',
             textAlign: 'center',
             cursor: 'pointer',
-            padding: '10px',
+            padding: '10px', // Adiciona um pouco de padding para o texto
           }}
           onClick={handleClick}
         >
